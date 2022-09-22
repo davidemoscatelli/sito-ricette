@@ -1,7 +1,0 @@
-[build]
-  command = "gatsby build"
-  publish = "public/"
-
-[template.environment]
-  GATSBY_FLOTIQ_API_KEY="e29e781ecb136844ce44973e9a987488"
-  GA_MEASUREMENT_ID="YOUR MEASUREMENT ID"
