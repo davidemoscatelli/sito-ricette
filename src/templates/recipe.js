@@ -23,7 +23,7 @@ const RecipeTemplate = ({ data }) => {
                 />
             </Helmet>
             <div className="flex flex-wrap max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-                <RecipeBackButton additionalClass={['mt-12 mb-5 uppercase']} backButtonText="Go back" />
+                <RecipeBackButton additionalClass={['mt-12 mb-5 uppercase']} backButtonText="Torna indietro" />
             </div>
             <div className="flex flex-wrap max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
                 <div
@@ -75,7 +75,7 @@ const RecipeTemplate = ({ data }) => {
                 headerText2="il tuo"
                 headerText3="piatto!"
             />
-            <RecipeCards recipes={recipes} headerText="Next recipe to cook:" />
+            <RecipeCards recipes={recipes} headerText="Cucina una nuova ricetta:" />
         </Layout>
     );
 };

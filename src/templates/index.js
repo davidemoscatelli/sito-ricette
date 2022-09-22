@@ -56,7 +56,7 @@ const IndexPage = ({ data, pageContext }) => {
                 imageAlt={recipes[0].name}
                 slug={recipes[0].slug}
             />
-            <RecipeCards recipes={recipes} headerText="Newest recipes" />
+            <RecipeCards recipes={recipes} headerText="Nuove ricette" />
             <Pagination
                 page={pageContext.currentPage}
                 numOfPages={pageContext.numPages}
